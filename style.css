@@ -64,86 +64,26 @@
     margin:80px auto;
     position:relative;
  }
- /*
-.a1{
-    width:150px;
-    height:20px;
-    background: yellow;
-    position:absolute;
-    top:90px;
-    left:60px;
-    transform:rotateZ(-30deg);
-    -webkit-transform:rotateZ(-30deg);
-    -moz-transform:rotateZ(-30deg);
-    -ms-transform:rotateZ(-30deg);
-    -o-transform:rotateZ(-30deg);
-    border-bottom-left-radius:16px;
-}
-.a2{
-     width:70px;
-     height:70px;
-     background: rgb(68, 68, 56);
-     position:absolute;
-     top:99px;
-     left:155px;
-     border-radius:50%;
-}
 
-.b1{
-    width:150px;
-    height:20px;
-    background: yellow;
-    position:absolute;
-    top:90px;
-    left:178px;
-    transform:rotateZ(30deg);
-    -webkit-transform:rotateZ(30deg);
-    -moz-transform:rotateZ(30deg);
-    -ms-transform:rotateZ(30deg);
-    -o-transform:rotateZ(30deg);
-    border-bottom-right-radius: 60px;
-}
-.c1{
-    width:150px;
-    height:20px;
-    background: yellow;
-    position:absolute;
-    top:150px;
-    left:178px;
-    transform:rotateZ(-30deg);
-    -webkit-transform:rotateZ(-30deg);
-    -moz-transform:rotateZ(-30deg);
-    -ms-transform:rotateZ(-30deg);
-    -o-transform:rotateZ(-30deg);
-    border-top-right-radius: 60px;
-}
-.d1{
-    width:140px;
-    height:20px;
-    background: yellow;
-    position:absolute;
-    top:154px;
-    left:67px;
-    transform:rotateZ(30deg);
-    -webkit-transform:rotateZ(30deg);
-    -moz-transform:rotateZ(30deg);
-    -ms-transform:rotateZ(30deg);
-    -o-transform:rotateZ(30deg);
-    
-} */
 
 .a1{
-    width:150px;
-    height:150px;
-    background:yellow;
+    width:0;
+    height:0;
+    position:relative;
+    top:-24%;
+    left:19%;
+   border:120px solid transparent;
+    border-bottom:70px solid yellow;
+}
+.a1::after{
+    content:"";
     position:absolute;
-    top:20%;
-    left:30%;
-    transform:rotateZ(43deg);
-    -webkit-transform:rotateZ(43deg);
-    -moz-transform:rotateZ(43deg);
-    -ms-transform:rotateZ(43deg);
-    -o-transform:rotateZ(43deg);
+    left:-12px;
+    top:70px;
+    width:0;
+    height:0;
+    border:120px solid transparent;
+    border-top:70px solid yellow;
 }
 .a2{
     width:90px;
